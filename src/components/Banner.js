@@ -1,9 +1,12 @@
 import React from "react";
 import "./Banner.css";
+import { useNavigate } from 'react-router-dom';
 
 import bannerMoviesList from "../movie/bannerMoviesList.json";
 
 function Banner() {
+  const navigate = useNavigate();
+
   function truncate(string, n) {
     return string?.length > n ? string.substr(0, n - 1) + "..." : string;
   }
@@ -26,7 +29,7 @@ function Banner() {
                 {truncate(data.description, 105)}
               </h1>
               <div className="banner_buttons">
-                <button className="banner_button">Play</button>
+                <button className="banner_button" onClick={() => navigate('./movieinfo')}>Play</button>
               </div>
             </div>
 
