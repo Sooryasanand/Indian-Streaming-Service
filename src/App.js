@@ -6,7 +6,8 @@ import { BrowserRouter as Router, Routes, Route,
 import HomeScreen from './Pages/Home/HomeScreen';
 import SignupScreeen from './Pages/Login/Signup';
 import ProfileScreen from './Pages/Profile/Profile';
-import Movieinfo from './Pages/MovieInfo/Movieinfo';
+import MovieinfoScreen from './Pages/MovieInfo/Movieinfo';
+import PlayerScreen from './Pages/Player/Player';
 
 import { auth } from './firebase/firebase';
 import { useDispatch, useSelector } from 'react-redux';
@@ -26,7 +27,7 @@ function App() {
         }))
       } else {
         // Logged Out
-        dispatch(logout)
+        dispatch(logout())
       }
     });
 
@@ -40,9 +41,10 @@ function App() {
             <SignupScreeen />
           ) : (
             <Routes>
-              <Route path="/profile" element={<ProfileScreen />}/>
-              <Route path="/movieinfo" element={<Movieinfo name />} />
               <Route exact path="/" element={<HomeScreen />} />
+              <Route path="/movieinfo" element={<MovieinfoScreen name />} />
+              <Route path="/player" element={<PlayerScreen />} />
+              <Route path="/profile" element={<ProfileScreen />}/>
             </Routes>
           )}
         </Router>

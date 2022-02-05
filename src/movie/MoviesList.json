@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Akkare Akkare Akkare",
-        "categories": "Comedy, World cinema",
+        "categories": "Comedy/World cinema",
         "description": "CID officers Ramdas and Vijayan set out to the USA to retrieve a priceless gold crown stolen from India. Once there, they manage to crack the case with a pseudonym and a torn piece of cloth as clues.",
         "time": "2h 36m",
         "year": "1990",
@@ -15,7 +15,7 @@
     {
         "id": 1,
         "name": "Pushpa: The Rise",
-        "categories": "Action, Drama",
+        "categories": "Action/Drama",
         "description": "Violence erupts between red sandalwood smugglers and the police charged with bringing down their organisation in the Seshachalam forests of South India.",
         "time": "2h 59m",
         "year": "2021",

@@ -26,6 +26,7 @@
     padding: 10px;
     object-fit: contain;
     transition: transform 450ms;
+    cursor: pointer;
 }
 
 .row_poster:hover {
