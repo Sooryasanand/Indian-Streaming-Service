@@ -1,0 +1,9 @@
+{
+  "video": {
+    "StreamFlex": {
+      "service": "video",
+      "serviceType": "video-on-demand",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
