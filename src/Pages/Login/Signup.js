@@ -1,8 +1,10 @@
 import React, { useRef } from "react";
 import { auth } from "../../firebase/firebase";
+import { useNavigate } from 'react-router-dom';
 import "./Signup.css";
 
 function Signup() {
+  const navigate = useNavigate();
   const emailRef = useRef(null);
   const passwordRef = useRef(null);
 
@@ -14,6 +16,7 @@ function Signup() {
       passwordRef.current.value
     ).then((authUser) => {
       console.log(authUser);
+      navigate('./profile')
     }).catch(error => {
       alert(error.message)
     })

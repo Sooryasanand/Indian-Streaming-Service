@@ -1,0 +1,39 @@
+.planScreen_plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.planScreen_plan:hover {
+    opacity: 1;
+}
+
+.planScreen_plan > button {
+    padding: 10px 20px;
+    border: none
+}
+
+.planScreen_plan > button:hover {
+    background-color: red;
+    color: white;
+}
+
+.planScreen_info {
+    width: 40%;
+}
+
+.planScreen_info > h5 {
+    padding-bottom: 5px;
+}
+
+.planScreen_plan-disabled > button {
+    background-color: grey !important;
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
+
+.planScreen_plan-disabled:hover {
+    opacity: 0.8;
+}
