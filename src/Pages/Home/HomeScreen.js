@@ -4,14 +4,14 @@ import Nav from '../../components/Nav';
 import "./HomeScreen.css";
 import Row from "../../components/Row.js";
 
-function HomeScreen() {
+function HomeScreen({data}) {
 
   return <div className='homeScreen'>
       <Nav />
 
       <Banner />
 
-      <Row title="Movies" />
+      <Row title="Movies" data={data}/>
 
   </div>;
 }

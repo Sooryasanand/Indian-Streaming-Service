@@ -15,7 +15,7 @@ function Banner() {
     <div>
       {bannerMoviesList.map((data) => {
         return (
-          <header
+          <header key={data}
             className="banner"
             style={{
               backgroundSize: "cover",

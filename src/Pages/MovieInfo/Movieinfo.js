@@ -1,32 +1,44 @@
 import React from "react";
 import Nav from "../../components/Nav";
+import { useParams } from "react-router-dom";
 import "./Movieinfo.css";
+
+import MovieInfos from '../../movie/MoviesList.json';
 
 import { useNavigate } from 'react-router-dom';
 
-function Movieinfo({name}) {
+function Movieinfo() {
   const navigate = useNavigate();
+  let { id } = useParams();
 
   return (
-    <header className="movieInfo">
+    <header className="movieInfo" key={MovieInfos[id]} 
+      style={{
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundImage: `url(${MovieInfos[id].bannerImage})`,
+      }}
+    >
       <Nav />
       <div style={{display: "flex", flexDirection: "row"}}>
         <div className="movieInfo_info">
           <div className="movieInfo_infotitle">
-            <h1>Akkare Akkare Akkare</h1>
+            <h1>{MovieInfos[id].name}</h1>
           </div>
           <div className="movieInfo_infodiv">
-            <h3>7.6/10</h3>
-            <h3>1990</h3>
-            <h3>2h 9m</h3>
-            <h3>Comedy/World cinema</h3>
+            <h3>{MovieInfos[id].rating}</h3>
+            <h3>{MovieInfos[id].year}</h3>
+            <h3>{MovieInfos[id].time}</h3>
+            <h3>{MovieInfos[id].categories}</h3>
           </div>
           <div className="movieInfo_description">
-            <p>CID officers Ramdas and Vijayan set out to the USA to retrieve a priceless gold crown stolen from India. Once there, they manage to crack the case with a pseudonym and a torn piece of cloth as clues.</p>
+            <p>{MovieInfos[id].description}</p>
           </div>
           <div className="movieInfo_cast">
             <h9>Cast:</h9>
-            <h9 className="movieInfo_casts">Mohanlal, Sreenivasan, Nedumudi Venu, Mukesh</h9>
+            <h9 className="movieInfo_casts">{MovieInfos[id].Actor}</h9>
           </div>
           <div className="playButton">
             <img className="playButton_icon" onClick={() => navigate('/player')} src="https://streamflexmisc.s3.ap-south-1.amazonaws.com/PlayIcon.png" />
