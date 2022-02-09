@@ -5,8 +5,6 @@ import "./Movieinfo.css";
 
 import MovieInfos from '../../movie/MoviesList.json';
 
-import { useNavigate } from 'react-router-dom';
-
 function Movieinfo() {
   let { id } = useParams();
 

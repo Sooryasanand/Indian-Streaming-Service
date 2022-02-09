@@ -2,6 +2,8 @@ import React from "react";
 import ReactPlayer from "react-player";
 import { useParams } from "react-router-dom";
 
+import Nav from "../../components/Nav.js";
+
 import MovieInfos from '../../movie/MoviesList.json';
 
 import "./Player.css";
@@ -14,6 +16,7 @@ function Player() {
 
   return (
     <div onContextMenu={e => e.preventDefault()} className="reactPlayer">
+      <Nav />
       <ReactPlayer
         config={{ file: { attributes: { controlsList: "nodownload" } } }}
         playing={true}
