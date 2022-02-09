@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../../components/Nav";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./Movieinfo.css";
 
 import MovieInfos from '../../movie/MoviesList.json';
@@ -8,7 +8,6 @@ import MovieInfos from '../../movie/MoviesList.json';
 import { useNavigate } from 'react-router-dom';
 
 function Movieinfo() {
-  const navigate = useNavigate();
   let { id } = useParams();
 
   return (
@@ -41,7 +40,9 @@ function Movieinfo() {
             <h9 className="movieInfo_casts">{MovieInfos[id].Actor}</h9>
           </div>
           <div className="playButton">
-            <img className="playButton_icon" onClick={() => navigate('/player')} src="https://streamflexmisc.s3.ap-south-1.amazonaws.com/PlayIcon.png" />
+            <Link to={"/player/" + MovieInfos[id].id}>
+              <img className="playButton_icon" src="https://streamflexmisc.s3.ap-south-1.amazonaws.com/PlayIcon.png" />
+            </Link>
           </div>
         </div>
       </div>

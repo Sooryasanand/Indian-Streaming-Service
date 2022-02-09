@@ -8,9 +8,9 @@
         "year": "1990",
         "rating": "7.6/10",
         "Actor": "Mohanlal, Sreenivasan, Nedumudi Venu, Mukesh",
-        "url": "https://streamflex-dev-input-4jz99tkb.s3.ap-south-1.amazonaws.com/Movies/Akkare+Akkare+Akkare/Akkare+Akkare+Akkare.mp4",
-        "bannerImage": "https://streamflex-dev-input-4jz99tkb.s3.ap-south-1.amazonaws.com/Movies/Akkare+Akkare+Akkare/Images/akkare+akkare+banner.png",
-        "posterImage": "https://streamflex-dev-input-4jz99tkb.s3.ap-south-1.amazonaws.com/Movies/Akkare+Akkare+Akkare/Images/akkare+akkare+poster.jpg"
+        "url": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/AkkareAkkareAkkare/akkareAkkareAkkare.mp4",
+        "bannerImage": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/AkkareAkkareAkkare/Images/akkareAkkareBanner.png",
+        "posterImage": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/AkkareAkkareAkkare/Images/akkareAkkarePoster.jpg"
     },
     {
         "id": 1,
@@ -21,8 +21,8 @@
         "year": "2021",
         "rating": "7.9/10",
         "Actor": "Allu Arjun, Rashmika Mandanna,  Fahadh Fasil, Samantha Ruth Prabhu",
-        "url": "https://streamflex-dev-input-4jz99tkb.s3.ap-south-1.amazonaws.com/Movies/PushpaTheRisePart+1/PushpaTheRise.mp4",
-        "bannerImage": "https://streamflex-dev-input-4jz99tkb.s3.ap-south-1.amazonaws.com/Movies/PushpaTheRisePart+1/Images/pushpaBanner.jpeg",
-        "posterImage": "https://streamflex-dev-input-4jz99tkb.s3.ap-south-1.amazonaws.com/Movies/PushpaTheRisePart+1/Images/pushpaPoster.jpeg"
+        "url": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/PushpaTheRisePart+1/pushpaTheRise.mp4",
+        "bannerImage": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/PushpaTheRisePart+1/Images/pushpaBanner.jpeg",
+        "posterImage": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/PushpaTheRisePart+1/Images/pushpaPoster.jpeg"
     }
 ]

@@ -1,7 +1,9 @@
-.player {
-    height: 100vh;
-    display: flex;
+.reactPlayer {
     justify-content: center;
     align-items: center;
-    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }

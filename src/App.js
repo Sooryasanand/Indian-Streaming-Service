@@ -43,7 +43,7 @@ function App() {
             <Routes>
               <Route exact path="/" element={<HomeScreen />} />
               <Route path="/movieinfo/:id" element={<MovieinfoScreen/>} />
-              <Route path="/player" element={<PlayerScreen />} />
+              <Route path="/player/:id" element={<PlayerScreen />} />
               <Route path="/profile" element={<ProfileScreen />}/>
             </Routes>
           )}
