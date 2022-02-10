@@ -3,6 +3,7 @@
     top: 0;
     padding: 20px;
     width: 100%;
+    padding-top: 10px;
     height: 30px;
     z-index: 100;
 
@@ -22,11 +23,15 @@
 .nav_logo {
     position: fixed;
     left: 0;
-    font-size: 25px;
+    width: 30px;
     margin-top: 0px;
-    padding-left: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    padding-bottom: 2px;
     cursor: pointer;
-    color: #E50914;    ;
+    background-color: black;
+    opacity: 80%;
+    border-radius: 5px;
 }
 
 .nav_avatar {
@@ -35,4 +40,5 @@
     right: 20px;
     width: 30px;
     cursor: pointer;
+    padding-top: 5px;
 }

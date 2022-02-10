@@ -15,7 +15,7 @@
 }
 
 .planScreen_plan > button:hover {
-    background-color: red;
+    background-color: #00aeef;
     color: white;
 }
 
