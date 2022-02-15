@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../../components/Nav";
+import Nav from "../../components/Nav.js";
 import { Link, useParams } from "react-router-dom";
 import "./Movieinfo.css";
 

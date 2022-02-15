@@ -37,3 +37,42 @@
 .planScreen_plan-disabled:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 360px) {
+
+}
+
+@media screen and (max-width: 449px) {
+    .planScreen_plan {
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+    
+    .planScreen_info {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .planScreen_info > h5 {
+        font-size: 15px;
+    }
+
+    .planScreen_plan > button {
+        width: 100px;
+        height: 45px;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}

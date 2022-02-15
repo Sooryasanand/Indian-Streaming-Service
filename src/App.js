@@ -8,7 +8,7 @@ import SignupScreeen from './Pages/Login/Signup';
 import ProfileScreen from './Pages/Profile/Profile';
 import MovieinfoScreen from './Pages/MovieInfo/Movieinfo';
 import PlayerScreen from './Pages/Player/Player';
-import BannerScreen from './components/Banner';
+import ForgotPasswordScreen from './components/ForgotPassword';
 
 import { auth } from './firebase/firebase';
 import { useDispatch, useSelector } from 'react-redux';
@@ -41,13 +41,18 @@ function App() {
           {!user ? (
             <SignupScreeen />
           ) : (
-            <Routes>
-              <Route exact path="/" element={<HomeScreen />} />
-              <Route path="/movieinfo/:id" element={<MovieinfoScreen/>} />
-              <Route path="/player/:id" element={<PlayerScreen />} />
-              <Route path="/profile" element={<ProfileScreen />}/>
-            </Routes>
+              <Routes>
+                <Route exact path="/" element={<HomeScreen />} />
+                <Route path="/movieinfo/:id" element={<MovieinfoScreen/>} />
+                <Route path="/player/:id" element={<PlayerScreen />} />
+                <Route path="/profile" element={<ProfileScreen />}/>
+              </Routes>
           )}
+        </Router>
+        <Router>
+          <Routes>  
+            <Route path="/forgotpassword" element={<ForgotPasswordScreen />} />
+          </Routes>
         </Router>
     </div>
   );

@@ -1,6 +1,7 @@
 .profileScreen {
     height: 100vh;
     color: white;
+    overflow: hidden;
 }
 
 .profileScreen_body {
@@ -63,4 +64,59 @@
     color: white;
     padding-bottom: 15px;
     border-bottom: 1px solid #282c2d;
+}
+
+@media screen and (max-width: 360px) {
+
+}
+
+@media screen and (max-width: 449px) {
+    .profileScreen_body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profileScreen_info {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .profileScreen_info > img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .profileScreen_details {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .profileScreen_details > h2 {
+        font-size: 13px;
+        width: 60%;
+        font-size: 13px;
+    }
+
+    .profileScreen_plans {
+        font-size: 10px;
+    }
+
+    .profileScreen_signOut {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
 }

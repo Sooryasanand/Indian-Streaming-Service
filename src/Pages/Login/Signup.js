@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { auth } from "../../firebase/firebase";
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import "./Signup.css";
 
 function Signup() {
@@ -15,7 +15,7 @@ function Signup() {
       emailRef.current.value,
       passwordRef.current.value
     ).then((authUser) => {
-      console.log(authUser);
+      console.log(authUser)
       navigate('./profile')
     }).catch(error => {
       alert(error.message)
@@ -29,7 +29,7 @@ function Signup() {
       emailRef.current.value,
       passwordRef.current.value
     ).then((authUser) => {
-      console.log(authUser);
+      console.log(authUser)
     }).catch(error => alert(error.message))
   }
 
@@ -40,10 +40,12 @@ function Signup() {
         <input ref={emailRef} placeholder="Email" type="email" />
         <input ref={passwordRef} placeholder="Password" type="password" />
         <button type="submit" onClick={signIn}>Sign In</button>
-
         <h4>
           <span className="signupScreen_grey">New here? </span>
           <span className="signupScreen_link" onClick={register}>Sign Up to Stream Flex.</span></h4>
+          <Link to={"/forgotpassword"}>
+            <h3>Forgot Password?</h3>
+          </Link>
       </form>
     </div>
   );
