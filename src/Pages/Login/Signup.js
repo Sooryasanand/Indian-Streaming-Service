@@ -43,9 +43,6 @@ function Signup() {
         <h4>
           <span className="signupScreen_grey">New here? </span>
           <span className="signupScreen_link" onClick={register}>Sign Up to Stream Flex.</span></h4>
-          <Link to={"/forgotpassword"}>
-            <h3>Forgot Password?</h3>
-          </Link>
       </form>
     </div>
   );

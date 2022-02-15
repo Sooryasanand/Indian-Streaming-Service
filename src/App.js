@@ -49,11 +49,6 @@ function App() {
               </Routes>
           )}
         </Router>
-        <Router>
-          <Routes>  
-            <Route path="/forgotpassword" element={<ForgotPasswordScreen />} />
-          </Routes>
-        </Router>
     </div>
   );
 }
