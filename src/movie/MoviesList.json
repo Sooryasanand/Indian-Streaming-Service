@@ -24,5 +24,18 @@
         "url": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/PushpaTheRisePart+1/pushpaTheRise.mp4",
         "bannerImage": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/PushpaTheRisePart+1/Images/pushpaBanner.jpeg",
         "posterImage": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/PushpaTheRisePart+1/Images/pushpaPoster.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Meppadiyan",
+        "categories": "Political drama",
+        "description": "Meppadiyan is a Malayalam drama, helmed by Vishnu Mohan. Meppadiyan is based on true incidents, the movie is based on the life of a commone man 'Jayakrishnan'.",
+        "time": "1h 40m",
+        "year": "2022",
+        "rating": "7.7/10",
+        "Actor": "Unni Mukundan, Kottayam Ramesh, Saiju Kurup, Aju Varghese, Anju Kurian, Nisha Sarang, Kalabhavan Shajohn",
+        "url": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/Meppadiyan/meppadiyanMalayalam.mp4",
+        "bannerImage": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/Meppadiyan/Images/meppadiyanBanner.jpg",
+        "posterImage": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/Meppadiyan/Images/meppadiyanPoster.jpg"
     }
 ]

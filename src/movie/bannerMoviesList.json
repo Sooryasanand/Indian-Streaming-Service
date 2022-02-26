@@ -1,15 +1,15 @@
 [
   {
-    "id": 0,
-    "name": "Pushpa: The Rise",
-    "categories": "Action, Drama",
-    "description": "Violence erupts between red sandalwood smugglers and the police charged with bringing down their organisation in the Seshachalam forests of South India.",
-    "time": "2h 59m",
-    "year": "2021",
-    "rating": "7.9/10",
-    "Actor": "Allu Arjun, Rashmika Mandanna,  Fahadh Fasil, Samantha Ruth Prabhu",
-    "url": "https://streamflex-dev-input-4jz99tkb.s3.ap-south-1.amazonaws.com/Movies/Akkare+Akkare+Akkare/Akkare+Akkare+Akkare.mp4",
-    "bannerImage": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/PushpaTheRisePart+1/Images/pushpaBanner.jpeg",
-    "posterImage": "https://streamflex-dev-input-4jz99tkb.s3.ap-south-1.amazonaws.com/Movies/PushpaTheRisePart+1/Images/pushpaPoster.jpeg"
+      "id": 0,
+      "name": "Meppadiyan",
+      "categories": "Political drama",
+      "description": "Meppadiyan is a Malayalam drama, helmed by Vishnu Mohan. Meppadiyan is based on true incidents, the movie is based on the life of a commone man 'Jayakrishnan'.",
+      "time": "1h 40m",
+      "year": "2022",
+      "rating": "7.7/10",
+      "Actor": "Unni Mukundan, Kottayam Ramesh, Saiju Kurup, Aju Varghese, Anju Kurian, Nisha Sarang, Kalabhavan Shajohn",
+      "url": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/Meppadiyan/meppadiyanMalayalam.mp4",
+      "bannerImage": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/Meppadiyan/Images/meppadiyanBanner.jpg",
+      "posterImage": "https://streamflex-movies.s3.ap-south-1.amazonaws.com/Meppadiyan/Images/meppadiyanPoster.jpg"
   }
 ]

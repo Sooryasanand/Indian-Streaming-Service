@@ -43,6 +43,7 @@ function Signup() {
         <h4>
           <span className="signupScreen_grey">New here? </span>
           <span className="signupScreen_link" onClick={register}>Sign Up to Stream Flex.</span></h4>
+          <h5 onClick={() => navigate('forgotpassword')}>Forgot Password?</h5>
       </form>
     </div>
   );
