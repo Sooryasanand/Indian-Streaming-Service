@@ -3,10 +3,10 @@ It's a Indian Streaming Website built using AWS, Heroku, Google Firebase and Str
 
 ## Softwares and Apps used
 
-Amazon Web Services - S3, Lambda, MediaConvert. Used for Storing Images, Movies and other misc.
-Heroku - Hosting the Website
-Google Firebase - Used for Auth, User and store their payment details.
-Stripe - Used for payments
+Amazon Web Services - S3, Lambda, MediaConvert. Used for Storing Images, Movies and other misc.  
+Heroku - Hosting the Website. 
+Google Firebase - Used for Auth, User and store their payment details.  
+Stripe - Used for payments. 
 
 ## Screenshot 
 <img src="https://github.com/Sooryasanand/Indian-Streaming-Service/blob/main/Screenshot/Screen%20Shot%202022-03-07%20at%2011.52.04%20am.png" width="1000" height="500">
