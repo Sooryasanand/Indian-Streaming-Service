@@ -71,7 +71,7 @@ function Plans() {
 
       if (sessionId) {
         const stripe = await loadStripe(
-          "pk_test_51KPzl9COLsHo56ok52RIwLVtMgIlBqSXepSszKNbMtq5JujgUevHhQNS4gQG7BUw4wAUYkaPOIIPJ5hVXQaYQhl000d860hl9Z"
+          "Strok Key"
         );
         stripe.redirectToCheckout({ sessionId });
       }
