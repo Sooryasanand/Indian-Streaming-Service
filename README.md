@@ -37,7 +37,6 @@ Stripe - Used for payments and to update user info.
 <img src="https://github.com/Sooryasanand/Indian-Streaming-Service/blob/main/Screenshot/Screen%20Shot%202022-03-07%20at%2011.52.39%20am.png" width="500" height="300">
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
 MIT License
 
 Copyright (c) [year] [fullname]
