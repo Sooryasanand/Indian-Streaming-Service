@@ -15,10 +15,10 @@ This website cannot be run because I have removed Aws, Heroku, Firebase and stri
 - Alows the user to cancel and update their subscription and their info after clicking on the current subscription.
 
 ## Softwares and Apps used for the website
-Amazon Web Services - S3, Lambda, MediaConvert. Used for Storing Images, Movies and other misc.
-Heroku - Used for hosting the Website.
-Google Firebase - Used for Auth, store user information and store their payment details.
-Stripe - Used for payments and to update user info.
+- Amazon Web Services - S3, Lambda, MediaConvert. Used for Storing Images, Movies and other misc.
+- Heroku - Used for hosting the Website.
+- Google Firebase - Used for Auth, store user information and store their payment details.
+- Stripe - Used for payments and to update user info.
 
 ## Screenshot 
 #### Login Screen
