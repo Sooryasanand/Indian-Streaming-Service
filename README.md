@@ -1,4 +1,4 @@
-# Stream Flex
+# Stream Flex Website
 Stream Flex is an Indian subscription based streaming website which is build using various Api's and apps. The movie, its images and other information is stored in Aws Amplify. Heroku was used to host the website in the internet. Google Firebase was used for authentication and keeping a record of the users subscription. Stripe was used for payment processing for the subscription which is linked with Google firebase to store those info with the relvent users. 
 
 ## How to run it?
