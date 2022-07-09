@@ -4,7 +4,7 @@ Stream Flex is an Indian subscription based streaming website which is build usi
 ## How to run it?
 This website cannot be run because I have removed Aws, Heroku, Firebase and stripe api keys from the application before submiting it to github for confidentiality reasons. 
 
-## Key featuers of the website
+## Key features of the website
 - Authentication of user based on their subscription. 
 - Not allowing users to browse movies without subscription.
 - Getting images and movies from Aws amplify and Displaying them to the website.
